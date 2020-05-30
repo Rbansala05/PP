@@ -34,15 +34,32 @@
         <div class ="row row-content align-items-center">
             <ol class="col-12 breadcrumb" >
                 <li class="breadcrumb-item"><a href="./index.html#projects">Projects</a></li>
-                <li class="breadcrumb-item active">Tetris Game</li>
+                <li class="breadcrumb-item active">Tetris Game </li>
             </ol>
             <div class="col-6 col-sm-6  col-md-6" id= "abc">
-                <h2>Tetris Game</h2>
-                <p>Comming Soon....</p>
+                <h2>Tetris Game “falling blocks”</h2>
+                <p>In this project I complete the implementation of a simplified Tetris-style or “falling blocks” type of video game. This particular game, which we’ll call MagicTetris, is a variation of Tetris. The basic idea is as follows. The game is played on a 2D grid. Each position in this grid can be represented as a (row, column) pair.  At any stage in the game, a grid position may be empty or may be occupied by a block. In addition, a shape made up of a combination of blocks (often called a tetromino), falls from the top of the grid. This is referred to as the current shape. As it falls, the current shape can be 
+                    <ul>
+                        <li>shifted from side to side </li>
+                        <li>transformed, which may rotate or flip it,  </li>
+                        <li>cycled, which will change the relative positions of the blocks within the shape, without changing the cells it occupies (for MagicTetris, this is only noticeable for “magic” blocks, described later)</li>
+                    </ul>
+                </p>
+                <p>
+                    When the currently falling shape can’t fall any further, its blocks are added to the grid, and the game checks whether it has completed a row (or more generally, a collapsible set). All blocks in 
+                    a collapsible set are then removed from the grid, and blocks above them are shifted down an equivalent amount. 
+                    A block may also be "magic", which works like this: When a row is completed that contains at least three magic blocks (shown below, left, with a white dot on them), then in addition to collapsing the completed rows, the game momentarily goes into gravity mode. In the next step of the game, all blocks with empty cells below them are allowed to “fall” independently. </p>
             </div>
-            <div class="col-6 col-sm-6  col-md-6">
-                <img src="./img/tec1.jpeg" alt="About us" class="img-fluid">
+            <div class="col-2 col-sm-2  col-md-2">
+                <img src="./img/s1.png" alt="About us" class="img-fluid">
              </div>
+             <div class="col-2 col-sm-2  col-md-2">
+                <img src="./img/s2.png" alt="About us" class="img-fluid">
+             </div>
+             <div class="col-2 col-sm-2  col-md-2">
+                <img src="./img/s3.png" alt="About us" class="img-fluid">
+             </div>
+             
             <div>
             </div>
         </div>
