@@ -563,7 +563,7 @@ footer.footer-area .social a:hover > i{
     height: 7px;
     margin: 30px 0 2px;
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.5);
+    background: white;
   }
   
   .candidatos .parcial .percentagem {
@@ -576,8 +576,8 @@ footer.footer-area .social a:hover > i{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background: var(--gradient-color);
-    -webkit-transition: 3s all;
-    -webkit-animation-duration: 3s;
+    -webkit-transition: 10s all;
+    -webkit-animation-duration: 10s;
     -webkit-animation-name: animationProgress;
   }
   
