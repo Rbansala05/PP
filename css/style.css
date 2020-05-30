@@ -23,7 +23,7 @@ div#particles-js {
     z-index: -100;
 }
 
-.header_area .main-menu .navbar .navbar-brand{
+.header_area .main-menu .navbar .navbar--area{
     padding: 0 2rem 0 5rem;
 }
 
@@ -117,9 +117,10 @@ div#particles-js {
     margin-bottom: 4rem;
 }
 
-.site-main .brand-area .first-row .col-lg-4{
-    display: flex;
+.site-main .brand-area .first-row .col-lg-2{
+    /* display: flex; */
     justify-content: center;
+    padding-left: 5%;
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand{
