@@ -91,9 +91,10 @@
                         <h4 class="title-text text-uppercase">Computer Engineer</h4>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
-                                <button type="button" class="btn button primary-button mr-4 text-uppercase">hire
+                                <button type="button" onclick="window.location.href='#contact','_blank'" class="btn button primary-button mr-4 text-uppercase">hire
                                     me</button>
-                                <button type="button" class="btn button secondary-button text-uppercase">Get cv</button>
+                                <button onclick=" window.open('/files/resume.pdf','_blank')" type="button" class="btn button secondary-button text-uppercase">Get cv</button>
+                                <!-- "window.location.href='/files/resume.pdf','_blank'" -->
                             </div>
                         </div>
                     </div>
@@ -135,7 +136,10 @@
                                 here
                             </p>
                         </div>
-                        <button type="button" class="btn button primary-button text-uppercase">Download cv</button>
+                        <a href="/files/resume.pdf" download="Resume">
+                            <button type="button" class="btn button primary-button text-uppercase">Download cv</button>
+                          </a>
+                        
                     </div>
                 </div>
             </div>
