@@ -385,7 +385,7 @@ footer.footer-area .social a:hover > i{
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font-family: var(--roboto)
+    font-family: var(--roboto);
     text-transform: uppercase;
     font-weight: 500;
     padding: 1.7rem;
@@ -413,6 +413,10 @@ footer.footer-area .social a:hover > i{
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
     font-weight: 500;
+    font-family: var(--roboto1);
+}
+.site-main .site-banner .site-title h1{
+  font-family: var(--roboto1);
 }
 .site-main .site-banner .site-title h4 span {
   color: #110f0f;
@@ -464,8 +468,8 @@ footer.footer-area .social a:hover > i{
     position: relative;
     z-index: 1;
     background: white;
-    width: 17rem;
-    height: 12rem;
+    width: 15rem;
+    height: 15rem;
     padding-top: 3.5vmin;
     margin: 3rem;
     border-radius: 0.5em;
@@ -478,7 +482,12 @@ footer.footer-area .social a:hover > i{
   
   .numbers .rect h1 {
     font-family: var(--roboto);
-    font-size: 5rem;
+    font-size: 4rem;
+    color: rgb(88, 72, 173);
+  }
+  .numbers .rect h2 {
+    font-family: var(--roboto);
+    font-size: 2rem;
     color: rgb(88, 72, 173);
   }
   
@@ -658,7 +667,8 @@ site-main .project-area{
 }
 
 .site-main .project-area .grid .our-project > .title h4{
-  font: normal 700 25px/12px var(--roboto);
+  font: normal 600 21px/19px var(--roboto);
+  /* font-size: 100%; */
 }
 
 .site-main .project-area .grid .our-project .img a:hover img{
