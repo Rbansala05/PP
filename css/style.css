@@ -417,6 +417,7 @@ footer.footer-area .social a:hover > i{
 }
 .site-main .site-banner .site-title h1{
   font-family: var(--roboto1);
+  font-weight: 800;
 }
 .site-main .site-banner .site-title h4 span {
   color: #110f0f;
